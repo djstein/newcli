@@ -1,20 +1,15 @@
+import sys
 import click
-from newcli.core import new_project
+from {{project}}.core import {{project}}
 
 @click.group()
 def cli():
-    """newcli
+    """{{project}}
     """
     if sys.version_info[0] == 2:
         print("Current environment is Python 2.")
         print("Please use a Python 3 virtualenv")
         raise SystemExit
-
-
-@cli.command('init')
-def new_project():
-    """Create new project."""
-    new_project()
 
 
 def main():
