@@ -1,3 +1,4 @@
+import sys
 import click
 from newcli.core import new_project
 
@@ -11,8 +12,8 @@ def cli():
         raise SystemExit
 
 
-@cli.command('init')
-def new_project():
+@cli.command()
+def init():
     """Create new project."""
     new_project()
 
