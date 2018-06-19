@@ -2,4 +2,3 @@ include README.md
 include Pipfile
 include lib/newcli/templates *
 recursive-include test *
-a
