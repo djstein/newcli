@@ -1,6 +1,6 @@
 import sys
 import click
-from newcli.core import new_project
+from newcli.core import setup_new_project
 
 @click.group()
 def cli():
@@ -15,7 +15,7 @@ def cli():
 @cli.command()
 def init():
     """Create new project."""
-    new_project()
+    setup_new_project()
 
 
 def main():

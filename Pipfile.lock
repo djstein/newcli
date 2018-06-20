@@ -43,11 +43,11 @@
         },
         "findreplace": {
             "hashes": [
-                "sha256:66ccd4f8b27b3197f75259a7107cd4eb7957a6df70e1996d140c6ad6f94e9f7d",
-                "sha256:c35b016c37e110e43a766d3320917cd12a7004c3af5e3b94297b165ec6e2fe3c"
+                "sha256:5aea03b5579ca2e05a6087def2ec0c6d1fa00bba20764092c14e78c99d811a49",
+                "sha256:a45e7be89c00be9df829cc017ca203c88e3df8b45835e582aa19028772d0bf1f"
             ],
             "index": "pypi",
-            "version": "==2018.6.18.0"
+            "version": "==2018.6.19.0"
         },
         "idna": {
             "hashes": [
