@@ -1,6 +1,16 @@
+import os
+from findreplace.core import findreplace
 
-def new_project():
+ROOT_DIR = os.path.dirname(__file__)
+PROJECT_TEMPLATE_DIR = os.path.join(ROOT_DIR, 'templates', '{{project}}')
+
+def copy_template(source_dir, dest_dir):
+    shutil.copytree(source_dir, dest_dir)
+
+def setup_new_project(dest_dir=os.getcwd()):
     config = prompt_config()
+    copy_template(ROOT_DIR, dest_dir)
+    findreplace(base_dir=dest_dir, find_replace_dict=config)
 
 def prompt_config():
     config = {}
