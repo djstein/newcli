@@ -1,4 +1,4 @@
 include README.md
 include Pipfile
-include lib/newcli/templates *
+include newcli/templates *
 recursive-include test *
