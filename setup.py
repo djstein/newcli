@@ -79,7 +79,18 @@ setup(
     },
     install_requires=REQUIRED,
     include_package_data=True,
-    # license='MIT',
+    package_data={
+        '': [
+            'templates/*',
+            'templates/.*',
+            'templates/*/*',
+            'templates/*/.*',
+            'templates/*/*',
+            'templates/*/*/*',
+
+        ],
+    },
+    license='MIT',
     classifiers=[
         # Trove classifiers
         # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
