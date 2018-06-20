@@ -10,9 +10,9 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = '{{project}}'
 DESCRIPTION = '{{description}}'
-URL = 'https://github.com/{{user}}/{{project}}'
-EMAIL = '{{user.email}}'
-AUTHOR = '{{user.name}}'
+URL = '{{github_repo}}'
+EMAIL = '{{email}}'
+AUTHOR = '{{name}}'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
