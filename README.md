@@ -89,6 +89,7 @@ python setup.py upload
 
 -   100% unit tests and run on TravisCI
 -   populate GitHub information from .gitconfig
+-   init a new GitHub repository
 -   add .travis.yml configuration
 -   add template tox configuration
 -   add template test files and folder structure
