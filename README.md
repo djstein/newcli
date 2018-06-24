@@ -4,14 +4,14 @@ Utility to create a new Python CLI.
 
 ## Quickstart
 
-```python
+```bash
 pipenv install newcli
 newcli init
 ```
 
 ## Install
 
-```python
+```bash
 # Command(s)
 
 pipenv install newcli
@@ -22,7 +22,7 @@ pip3 install --user newcli
 
 ### `init`
 
-```python
+```bash
 # Command
 
 newcli init
