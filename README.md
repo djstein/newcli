@@ -94,3 +94,4 @@ python setup.py upload
 -   add template tox configuration
 -   add template test files and folder structure
 -   add template README.md
+-   ability to create, register, and share new templates
