@@ -48,8 +48,9 @@ The output creates this folder structure:
 
 ## TODO
 
+-   100% unit tests and run on TravisCI
 -   populate GitHub information from .gitconfig
 -   add .travis.yml configuration
 -   add template tox configuration
--   add basic test files and folder
+-   add template test files and folder structure
 -   add template README.md
