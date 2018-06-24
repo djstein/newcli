@@ -1,3 +1,3 @@
 
-def {{projcet}}():
+def {{project}}():
     pass
