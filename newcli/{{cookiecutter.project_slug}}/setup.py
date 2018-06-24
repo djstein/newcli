@@ -8,11 +8,11 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = '{{project}}'
-DESCRIPTION = '{{description}}'
-URL = '{{github_repo}}'
-EMAIL = '{{email}}'
-AUTHOR = '{{name}}'
+NAME = '{{cookiecutter.project_slug}}'
+DESCRIPTION = '{{cookiecutter.description}}'
+URL = '{{cookiecutter.github_repo}}'
+EMAIL = '{{cookiecutter.email}}'
+AUTHOR = '{{cookiecutter.name}}'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -26,7 +26,7 @@ with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
 
 # Load the package's __version__.py module as a dictionary.
 about = {}
-with open(os.path.join(here, '{{project}}', '__version__.py')) as f:
+with open(os.path.join(here, '{{cookiecutter.project_slug}}', '__version__.py')) as f:
     exec(f.read(), about)
 
 
@@ -75,7 +75,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     entry_points={
-        'console_scripts': ['{{project}}={{project}}.cli:main'],
+        'console_scripts': ['{{cookiecutter.project_slug}}={{cookiecutter.project_slug}}.cli:main'],
     },
     install_requires=REQUIRED,
     include_package_data=True,

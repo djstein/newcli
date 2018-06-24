@@ -16,7 +16,7 @@ AUTHOR = 'Dylan Stein'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'click', 'requests', 'findreplace'
+    'click', 'requests', 'cookiecutter'
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))

@@ -1,10 +1,10 @@
 import sys
 import click
-from {{project}}.core import {{project}}
+from {{cookiecutter.project_slug}}.core import {{cookiecutter.project_slug}}
 
 @click.group()
 def cli():
-    """{{project}}
+    """{{cookiecutter.project_slug}}
     """
     if sys.version_info[0] == 2:
         print("Current environment is Python 2.")
